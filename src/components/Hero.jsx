@@ -18,39 +18,50 @@ export default function Hero() {
 
       <Title />
 
-      <div className="h-[126px]" />
+      <div className="h-[50px] md:h-[120px] lg:h-[126px]" />
 
       <div
         className="
           w-full max-w-[1384px] mx-auto
-          h-[300px]
           rounded-[20px]
-          flex items-center justify-between
-          px-[120px]
+
+          flex flex-col md:flex-col lg:flex-row
+          items-center md:items-center lg:items-center
+          justify-start md:justify-start lg:justify-between
+
+          px-6 md:px-12 lg:px-[120px]
+          gap-10
         "
       >
-        
-        <div className="w-[404px] text-left mr-[38px]">
+      <div className="w-full md:w-full lg:w-[404px] text-left md:mr-0 lg:mr-[38px] px-[5px]">
 
-          <h2 className="text-[36px] font-bold leading-[1.1] mb-[23px]">
+        <div className="flex md:flex lg:block justify-start gap-6 items-center md:items-start w-full">
+          
+          <h2 className="text-[18px] sm:text-[28px] md:text-[36px] font-bold leading-[1.1] max-w-[220px] sm:max-w-[260px] md:max-w-full">
             Are you stuck with <br />
-            NFTs that nobody <br />
-            wants to buy?
+            NFTs that nobody wants to buy?
           </h2>
 
+          <div className="ml-[25px] md:ml-0 max-w-[120px] md:max-w-none shrink-0 md:shrink">
           <UserAvatars icons={[icon1, icon3, icon2]} />
+          </div>
 
         </div>
 
-        <RhinoCenter src={rhino} />
+      </div>
+
+      <RhinoCenter src={rhino} />
 
         
-        <div className="w-[398px] flex flex-col ml-[50px]">
+        <div className=" flex flex-col
+          md:flex-row md:items-center md:gap-10
+          lg:flex-col">
 
         <Stats />
 
-        <Button text="Connect Wallet" icon={arrow} />
-
+        <div className="md:shrink-0 lg:shrink-0">
+          <Button text="Connect Wallet" icon={arrow} />
+        </div>
         </div>
 
       </div>
@@ -58,7 +69,7 @@ export default function Hero() {
       <DottedArrow src={dottedarrow} />
 
       
-      <p className="mt-[-10px] ml-[290px] text-[18px] font-medium flex items-center gap-[10px]">
+      <p className="mt-[20px] md:mt-[-10px] md:ml-[290px] text-[16px] md:text-[18px] ...">
         <span className="w-[14px] h-[14px] bg-black rounded-full inline-block"></span>
         Bad NFT Collection Launching. Standby.
       </p>

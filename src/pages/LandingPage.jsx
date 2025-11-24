@@ -5,7 +5,7 @@ import bg from "../assets/bg.jpg";
 export default function LandingPage() {
   return (
     <div
-      className="w-full min-h-screen bg-cover bg-center bg-no-repeat"
+      className="w-full min-h- bg-cover bg-center bg-no-repeat overflow-x-hidden"
       style={{ backgroundImage: `url(${bg})` }}
     >
       <Header />

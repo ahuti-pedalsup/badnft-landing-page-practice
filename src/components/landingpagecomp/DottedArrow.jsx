@@ -4,7 +4,14 @@ export default function DottedArrow({ src }) {
       <img
         src={src}
         alt="connecting arrow"
-        className="absolute w-[95px] h-[158px] left-[510px] top-[-35px]"
+        className="
+          absolute hidden
+          md:block
+          md:w-[140px] md:h-[220px]
+          md:left-[50px] md:top-[-335px]
+          lg:w-[95px] lg:h-[158px]
+          lg:left-[510px] lg:top-[-35px]
+        "
       />
     </div>
   );
