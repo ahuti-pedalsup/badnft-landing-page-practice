@@ -2,13 +2,12 @@ export default function UserAvatars({ icons }) {
   return (
     <div
       className="
-        flex items-center gap-[10px] mt-[20px]
-        md:flex-row md:items-center
-        flex-col 
+        flex flex-col items-center gap-[10px] mt-[20px]
+        lg:flex-row lg:items-start
       "
     >
-
-      <div className="flex items-center -space-x-4">
+      
+      <div className="flex items-center -space-x-4 shrink-0">
         {icons.map((src, i) => (
           <img
             key={i}
@@ -19,21 +18,25 @@ export default function UserAvatars({ icons }) {
               sm:w-[50px] sm:h-[50px]
               md:w-[55px] md:h-[55px]
               lg:w-[63px] lg:h-[64px]
-              rounded-full border-[3px] gap-6 border-white
+              rounded-full border-[3px] border-white
             "
           />
         ))}
       </div>
-
+      
       <p
         className="
-          text-[14px] leading-tight text-center
-          md:text-left md:text-[16px] lg:text-[18px]
+          text-[14px] text-center whitespace-nowrap
+          md:text-[16px]
+          lg:text-left lg:whitespace-normal lg:text-[18px] lg:leading-tight
         "
       >
-        Meet our <br /> Valuable Users
-      </p>
+        <span className="inline lg:hidden">Meet our Valuable Users</span>
 
+        <span className="hidden lg:inline">
+          Meet our <br /> Valuable Users
+        </span>
+      </p>
     </div>
   );
 }
