@@ -16,17 +16,15 @@ export default function AboutSection() {
               flex
               flex-col md:flex-row
               items-start
-              gap-[30px] md:gap-[50px] lg:gap-[120px]   /* MOBILE + TABLET spacing fixed */
+              gap-[30px] md:gap-[50px] lg:gap-[120px]   
             "
           >
-
-            {/* IMAGES */}
             <div
               className="
                 relative 
                 w-full 
                 sm:w-[330px] 
-                md:w-[360px]        /* tablet adjusted */
+                md:w-[360px]       
                 lg:w-[430px] 
                 h-[400px] 
                 md:h-[460px] 
@@ -38,7 +36,7 @@ export default function AboutSection() {
                 className="
                   absolute
                   top-[0px]
-                  left-[0px]            /* mobile left aligned */
+                  left-[0px]           
                   w-[220px] sm:w-[250px] md:w-[260px] lg:w-[324px]
                   h-[260px] sm:h-[300px] md:h-[320px] lg:h-[405px]
                   object-cover
@@ -60,11 +58,10 @@ export default function AboutSection() {
               />
             </div>
 
-            {/* TEXT SECTION */}
             <div className="
               flex flex-col 
               gap-[15px]
-              pt-[20px] sm:pt-[40px] md:pt-[70px] lg:pt-[220px]  /* tablet spacing reduced */
+              pt-[20px] sm:pt-[40px] md:pt-[70px] lg:pt-[220px] 
               w-full md:w-[380px] lg:w-[736px]
             ">
 
@@ -94,7 +91,7 @@ export default function AboutSection() {
           </div>
         </div>
 
-        {/* STRIPS → HIDDEN ON MOBILE */}
+        
         <div className="relative w-full overflow-visible h-[200px] sm:h-[240px] md:h-[260px] lg:h-[280px] hidden sm:block">
 
           <div
@@ -104,7 +101,7 @@ export default function AboutSection() {
               left-[-50%]
               top-[100px] md:top-[120px] lg:top-[126px]
               h-[100px] md:h-[110px] lg:h-[120px]
-              bg-[#E6EF6A]
+              bg-[#E5f066]
               rotate-[-6deg]
               flex items-center justify-center z-10
             "
@@ -121,7 +118,7 @@ export default function AboutSection() {
               left-[-50%]
               top-[170px] md:top-[190px] lg:top-[200px]
               h-[100px] md:h-[110px] lg:h-[120px]
-              bg-[#C8B3FF]
+              bg-[#BBA5F0]
               rotate-[6deg]
               flex items-center justify-center z-0
             "
