@@ -1,11 +1,11 @@
 import { useState } from "react";
 
-import RoboIcon from "../assets/RoboIcon.svg";
-import BADNFTText from "../assets/BADNFTText.svg";
+import RoboIcon from "../../assets/RoboIcon.svg";
+import BADNFTText from "../../assets/BADNFTText.svg";
 
-import Logo from "../components/headercomp/Logo";
-import Navigation from "../components/headercomp/Navigation";
-import HeaderButton from "../components/headercomp/HeaderButton";
+import Logo from "./Logo";
+import Navigation from "./Navigation";
+import HeaderButton from "./HeaderButton";
 
 export default function Header() {
   const [open, setOpen] = useState(false);

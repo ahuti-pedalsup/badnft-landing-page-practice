@@ -1,5 +1,5 @@
-import josephImg from "../assets/joseph.svg";
-import star from "../assets/star.svg";
+import josephImg from "../../assets/joseph.svg";
+import star from "../../assets/star.svg";
 
 export default function JosephSection() {
   return (

@@ -1,16 +1,16 @@
-import icon1 from "../assets/icon1.svg";
-import icon2 from "../assets/icon2.svg";
-import icon3 from "../assets/icon3.svg";
-import rhino from "../assets/rhino.svg";
-import arrow from "../assets/arrow.svg";
-import dottedarrow from "../assets/dottedarrow.svg";
+import icon1 from "../../assets/icon1.svg";
+import icon2 from "../../assets/icon2.svg";
+import icon3 from "../../assets/icon3.svg";
+import rhino from "../../assets/rhino.svg";
+import arrow from "../../assets/arrow.svg";
+import dottedarrow from "../../assets/dottedarrow.svg";
 
-import Title from "../components/landingpagecomp/Title";
-import UserAvatars from "../components/landingpagecomp/UserAvatars";
-import Stats from "../components/landingpagecomp/Stats";
-import Button from "../components/landingpagecomp/Button";
-import RhinoCenter from "../components/landingpagecomp/RhinoCenter";
-import DottedArrow from "../components/landingpagecomp/DottedArrow";
+import Title from "./Title";
+import UserAvatars from "./UserAvatars";
+import Stats from "./Stats";
+import Button from "./Button";
+import RhinoCenter from "./RhinoCenter";
+import DottedArrow from "./DottedArrow";
 
 export default function Hero() {
   return (
