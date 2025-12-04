@@ -25,15 +25,16 @@ export default function HowItWorks() {
         className="
           w-full max-w-[1400px] px-[164px]
           max-[1024px]:px-[40px] max-[1024px]:pt-[150px] max-[1024px]:pb-[60px]
-          max-[640px]:px-[20px] max-[640px]:pt-[100px]
+          max-[640px]:px-[20px] max-[640px]:pt-[0px]
         "
       >
         <div
           className="
             w-full flex items-start justify-between gap-[54px]
-            max-[1024px]:flex-col max-[640px]:text-left
+            max-[640px]:flex-col max-[640px]:text-left
           "
         >
+
           <HowItWorksHeader />
           <HowItWorksInfo />
         </div>

@@ -5,7 +5,7 @@ import UnderstandingRightText from "./UnderstandingRightText";
 
 export default function Understanding() {
   return (
-    <section className="w-full bg-[#F8F8FA] py-[150px] flex justify-center">
+    <section className="w-full bg-[#F8F8FA] py-[150px] max-[1024px]:py-[100px] max-[640px]:py-[60px]  flex justify-center">
       <div className="w-[1400px] max-[1024px]:w-full max-[640px]:px-[20px]">
 
         <UnderstandingTitle />
