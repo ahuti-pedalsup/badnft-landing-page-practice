@@ -3,19 +3,18 @@ import JosephTestimonialBox from "../josephsection/JosephTestimonialBox";
 
 export default function JosephSection() {
   return (
-    <section className="w-full bg-[#F8F8FA] flex justify-center py-[58px]">
+    <section className="w-full bg-[#F8F8FA] flex justify-center py-[3.625rem]">
       <div
         className="
-          w-[1400px] h-[680px] mx-auto px-[164px] relative flex
+          w-[87.5rem] h-[42.5rem] mx-auto px-[10.25rem] relative flex
 
-          max-[1024px]:w-full max-[1024px]:h-auto max-[1024px]:px-[40px]
-          max-[1024px]:gap-[30px]
+          max-[1024px]:w-full max-[1024px]:h-auto max-[1024px]:px-[2.5rem]
+          max-[1024px]:gap-[1.875rem]
 
-          max-[640px]:flex-col max-[640px]:px-[20px] max-[640px]:gap-[20px]
+          max-[640px]:flex-col max-[640px]:px-[1.25rem] max-[640px]:gap-[1.25rem]
         "
       >
         <JosephImageWithBadge />
-
         <JosephTestimonialBox />
       </div>
     </section>
