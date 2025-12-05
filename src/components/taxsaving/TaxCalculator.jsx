@@ -5,12 +5,12 @@ export default function TaxCalculator() {
   return (
     <div
       className="
-        w-full max-w-[700px] bg-white rounded-[40px] p-[40px] shadow-sm
+        w-full max-w-[43.75rem] bg-white rounded-[2.5rem] p-[2.5rem] shadow-sm
         max-[1024px]:h-auto max-[1024px]:mx-auto
-        max-[640px]:p-[20px] max-[640px]:rounded-[24px]
+        max-[640px]:p-[1.25rem] max-[640px]:rounded-[1.5rem]
       "
     >
-      <h3 className="text-[24px] font-semibold max-[640px]:text-[20px]">
+      <h3 className="text-[1.5rem] font-semibold max-[640px]:text-[1.25rem]">
         Tax Calculator
       </h3>
 
@@ -18,15 +18,15 @@ export default function TaxCalculator() {
 
       <div
         className="
-          flex justify-between items-center mt-[19px] mb-[8px]
-          max-[640px]:flex-col max-[640px]:items-start max-[640px]:gap-[10px]
+          flex justify-between items-center mt-[1.1875rem] mb-[0.5rem]
+          max-[640px]:flex-col max-[640px]:items-start max-[640px]:gap-[0.625rem]
         "
       >
-        <p className="text-[16px] text-gray-600 max-[640px]:text-[14px]">
+        <p className="text-[1rem] text-gray-600 max-[640px]:text-[0.875rem]">
           Federal + State Tax Rate (%)
         </p>
 
-        <p className="text-[16px] text-gray-500 max-[640px]:text-[14px] text-right">
+        <p className="text-[1rem] text-gray-500 max-[640px]:text-[0.875rem] text-right">
           Amount BAD NFT Pays
         </p>
       </div>
@@ -34,21 +34,21 @@ export default function TaxCalculator() {
       <div
         className="
           flex items-center justify-between
-          max-[640px]:flex-col max-[640px]:items-start max-[640px]:gap-[15px]
+          max-[640px]:flex-col max-[640px]:items-start max-[640px]:gap-[0.9375rem]
         "
       >
-        <div className="relative w-[304px] max-[640px]:w-full">
-          <div className="w-full h-[2px] bg-gray-300 rounded-full"></div>
+        <div className="relative w-[19rem] max-[640px]:w-full">
+          <div className="w-full h-[0.125rem] bg-gray-300 rounded-full"></div>
 
           <div
             className="
-              absolute top-[-6px] left-0
-              w-[20px] h-[20px] bg-[#A890F0] rounded-full border-[3px] border-white
+              absolute top-[-0.375rem] left-0
+              w-[1.25rem] h-[1.25rem] bg-[#A890F0] rounded-full border-[0.1875rem] border-white
             "
           ></div>
         </div>
 
-        <p className="text-[20px] font-semibold text-gray-500 max-[640px]:text-[16px]">
+        <p className="text-[1.25rem] font-semibold text-gray-500 max-[640px]:text-[1rem]">
           $0.01 per NFT
         </p>
       </div>

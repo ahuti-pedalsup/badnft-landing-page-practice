@@ -2,39 +2,45 @@ export default function TaxResults() {
   return (
     <div
       className="
-        w-[calc(100%+80px)] h-[148px] bg-[#A890F0] rounded-[30px] mt-[45px]
-        flex justify-between items-center px-[40px] py-[20px] ml-[-40px]
+        w-[calc(100%+5rem)] h-[9.25rem] bg-[#A890F0] rounded-[1.875rem] mt-[2.8125rem]
+        flex justify-between items-center px-[2.5rem] py-[1.25rem] ml-[-2.5rem]
 
         max-[640px]:w-full
-        max-[640px]:flex-col max-[640px]:h-auto max-[640px]:gap-[20px]
-        max-[640px]:px-[24px] max-[640px]:py-[24px]
+        max-[640px]:flex-col max-[640px]:h-auto max-[640px]:gap-[1.25rem]
+        max-[640px]:px-[1.5rem] max-[640px]:py-[1.5rem]
         max-[640px]:ml-0
       "
     >
       <div
         className="
           bg-black text-white
-          w-[320px] h-[108px] rounded-[30px] mr-5
+          w-[20rem] h-[6.75rem] rounded-[1.875rem] mr-5
           flex flex-col items-center justify-center
-          max-[640px]:w-full max-[640px]:h-[90px] max-[640px]:mr-0
+          max-[640px]:w-full max-[640px]:h-[5.625rem] max-[640px]:mr-0
         "
       >
-        <p className="text-[14px] max-[640px]:text-[12px]">Total Loss on Investment</p>
-        <p className="text-[40px] font-bold max-[640px]:text-[30px]">$0.0</p>
+        <p className="text-[0.875rem] max-[640px]:text-[0.75rem]">
+          Total Loss on Investment
+        </p>
+        <p className="text-[2.5rem] font-bold max-[640px]:text-[1.875rem]">
+          $0.0
+        </p>
       </div>
 
       <div
         className="
           bg-black text-white
-          w-[320px] h-[108px] rounded-[24px]
+          w-[20rem] h-[6.75rem] rounded-[1.5rem]
           flex flex-col items-center justify-center
-          max-[640px]:w-full max-[640px]:h-[90px]
+          max-[640px]:w-full max-[640px]:h-[5.625rem]
         "
       >
-        <p className="text-[14px] max-[640px]:text-[12px]">
+        <p className="text-[0.875rem] max-[640px]:text-[0.75rem]">
           Estimated Potential Tax Savings
         </p>
-        <p className="text-[40px] font-bold max-[640px]:text-[30px]">$0</p>
+        <p className="text-[2.5rem] font-bold max-[640px]:text-[1.875rem]">
+          $0
+        </p>
       </div>
     </div>
   );
