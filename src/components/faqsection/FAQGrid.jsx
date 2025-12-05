@@ -4,8 +4,8 @@ export default function FAQGrid() {
   return (
     <div
       className="
-        grid grid-cols-2 gap-x-[94px] gap-y-[33px]
-        max-[640px]:grid-cols-1 max-[640px]:gap-y-[40px]
+        grid grid-cols-2 gap-x-[5.875rem] gap-y-[2.0625rem]
+        max-[640px]:grid-cols-1 max-[640px]:gap-y-[2.5rem]
       "
     >
       <FAQItem title="What is BAD NFT?">

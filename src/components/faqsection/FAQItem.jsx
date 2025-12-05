@@ -3,8 +3,9 @@ export default function FAQItem({ title, children }) {
     <div>
       <h3
         className="
-          text-[32px] font-semibold text-white mb-[20px]
-          max-[1024px]:text-[28px] max-[640px]:text-[22px]
+          text-[2rem] font-semibold text-white mb-[1.25rem]
+          max-[1024px]:text-[1.75rem] 
+          max-[640px]:text-[1.375rem]
         "
       >
         {title}
@@ -12,8 +13,9 @@ export default function FAQItem({ title, children }) {
 
       <ul
         className="
-          text-[18px] text-gray-300 leading-[1.8] list-disc pl-[22px]
-          max-[1024px]:text-[16px] max-[640px]:text-[15px]
+          text-[1.125rem] text-gray-300 leading-[1.8] list-disc pl-[1.375rem]
+          max-[1024px]:text-[1rem] 
+          max-[640px]:text-[0.9375rem]
         "
       >
         <li>{children}</li>
